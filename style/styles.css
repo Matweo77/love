@@ -1,0 +1,167 @@
+body {
+    background-color: #a894b1;
+}
+
+nav {
+    background-color: white;
+    border-radius: 0 0 0 30px;
+    box-shadow: 1px 1px 20px black;
+}
+
+.collapse {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+}
+
+.texto{
+    font-family: 'Great Vibes', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    font-size: 80px;
+    color: black;
+    animation: float 5s infinite;
+}
+
+/* #message {
+    border: solid 1px black;
+}
+
+#a {
+    border: solid 1px rgb(203, 120, 120);
+
+}
+
+#b {
+    border: solid 1px rgb(115, 170, 38);
+
+}
+
+#c {
+    border: solid 1px rgb(129, 41, 164);
+
+} */
+
+
+.love {
+    font-family: 'Great Vibes', cursive;
+    text-decoration: none;
+    color: black;
+    margin-top: 1.3rem;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+/*imagenes de nosotros*/
+#img-uno {
+    margin-right: 4rem;
+    width: 200px;
+    margin-top: 4rem;
+    animation: globos ease 2.5s;
+}
+
+#img-dos {
+    margin-left: 4rem;
+    width: 150px;
+    margin-top: 4rem;
+    animation: globos ease 2.5s;
+}
+
+/*imagenes de corazones*/
+#img-pudin-1 {
+    width: 100px;
+    margin-left: 9rem;
+    margin-top: 9rem;
+    animation: pudin1 ease 3s ;
+}
+
+#img-pudin-2 {
+    margin-left: 2rem;
+    width: 100px;
+    margin-top: 9rem;
+    animation: pudin2 ease 3s ;
+}
+
+
+/*imagenes de corazones*/
+#beso1{
+    width: 100px;
+    position: relative;
+    top: 1.2rem;
+    left: 30rem;
+}
+
+#beso2{
+    width: 100px;
+    position: relative;
+    top: 1rem;
+    right: 7rem;
+}
+
+/*corona de texto*/
+#corona{
+    width: 120px;
+    height: 50px;
+    position:relative;
+    top: 11.5rem;
+    left: 21rem;
+    opacity: 80%;
+    animation: float 5s infinite;
+}
+
+.img-fluid{
+    border-radius: 10%;
+}
+
+#img-uno, #img-dos, #img-pudin-1, #img-pudin-2{
+    box-shadow: 2px 2px 10px black;
+}
+
+
+
+
+
+/*key frames pudin*/
+@keyframes pudin1 {
+    0% {
+        transform: translate(-30rem);
+    }
+
+}
+
+/*key frames pudin-2*/
+@keyframes pudin2 {
+    0% {
+        transform: translate(30rem);
+    }
+
+
+}
+
+
+
+/*key frames globos*/
+@keyframes globos {
+    0% {
+        transform: translateY(-40rem);
+    }
+
+
+}
+
+/*key frames span*/
+@keyframes float {
+
+    0%, 100% {
+        transform: translateY();
+    }
+
+    50% {
+        transform: translateY(-40px);
+    }
+}
